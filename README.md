@@ -115,7 +115,8 @@ Execute the program using runserver command.
 </html>
 
 ## OUTPUT
-![time table](https://github.com/Karthi051/slot/assets/148327224/4ece6244-cccc-4677-ad87-f2873d4321d4)
+![time table](https://github.com/Karthi051/slot/assets/148327224/64a0c38f-f932-4fa5-a8b4-9c65498a3eb2)
+
 
 
 
