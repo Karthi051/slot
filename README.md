@@ -25,114 +25,98 @@ Execute the program using runserver command.
 
 ## PROGRAM
 ```
-<html>
-    <head>
-        <title>My Time Table</title>
-    </head>
-    <body>
-        <img src="logo.png" height="150" width="900">
-        <table border="4" cellspacing="8" cellpadding="5" width="50" height="50">
-        <caption>SLOT TIME TABLE- KARTHI KEYAN K (23013936)</caption>
-        <tr>
-            <th bgcolor="blue">Day/Time</th>
-            <th bgcolor="blue">monday</th>
-            <th bgcolor="blue">tuesday</th>
-            <th bgcolor="blue">wednesday</th>
-            <th bgcolor="blue">thursday</th>
-            <th bgcolor="blue">friday</th>
-            <th bgcolor="blue">saturday</th>
-        </tr>
-        <tr>
-            <td bgcolor="blue">8-10</td>
-            <td bgcolor="red">CHEM</td>
-            <td bgcolor="red">ML</td>
-            <td bgcolor="red">PLA</td>
-            <td bgcolor="red">creativeskills</td>
-            <td bgcolor="red">webdev</td>
-            <td bgcolor="red"> ML</td>
-        </tr>
-        <tr>
-            <td bgcolor="blue">10-12</td>
-            <td bgcolor="red">eng</td>
-            <td bgcolor="red">PLA</td>
-            <td bgcolor="red">free</td>
-            <td bgcolor="red">free</td>
-            <td bgcolor="red">Cprogram</td>
-            <td bgcolor="green">free</td>
-        </tr>
-        <tr>
-            <td bgcolor="blue">12-1</td>
-            <td colspan="6" bgcolor="green" align="center">LUNCH </td>
-        </tr>
-        <tr>
-            <td bgcolor="blue">1-3</td>
-            <td bgcolor="red">PLA</td>
-            <td bgcolor="red">webdev</td>
-            <td bgcolor="red">eng</td>
-            <td bgcolor="red">webdev</td>
-            <td bgcolor="green">free</td>
-            <td bgcolor="red">CHEM</td>
-        </tr>
-        <tr>
-            <td bgcolor="blue">3-5</td>
-            <td bgcolor="red">Cprogram</td>
-            <td bgcolor="green">free</td>
-            <td bgcolor="green">free</td>
-            <td bgcolor="green">free</td>
-            <td bgcolor="green">free</td>
-            <td bgcolor="red">PLA</td>
-        </tr>
-        </table>
-        <table border="4" cellspacing="8" cellpadding="5" width="600" height="40">
-            <tr>
-                <th>S.no</th>
-                <th>Subject code</th>
-                <th>Subject name</th>
-            </tr>
-            <tr>
-                <td>1.</td>
-                <td>19EY702</td>
-                <td>creative skills</td>
-            </tr>
-            <tr>
-                <td>2.</td>
-                <td>19EN101</td>
-                <td>Communicative English</td>
-            </tr>
-            <tr>
-                <td>3.</td>
-                <td>19CY205</td>
-                <td>Principles of Chemistry in Engineering</td>
-            </tr>
-            <tr>
-                <td>4.</td>
-                <td>19AI414</td>
-                <td>Fundamentals of Web Application Development</td>
-            </tr>
-            <tr>
-                <td>5.</td>
-                <td>19AI410</td>
-                <td>Introduction to Machine Learning</td>
-            </tr>
-            <tr>
-                <td>6.</td>
-                <td>19AI304</td>
-                <td>Fundamentals of C programming</td>
-            </tr>
-            <tr>
-                <td>7.</td>
-                <td>19AI301C</td>
-                <td>Python and Linear Algebra</td>
-            </tr>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Timetable</title>
+</head>
+<body><center>
+    <img src="logo.png"  height="100" >
+    
+    <h3>SLOT TIME TABLE-KARTHI KEYAN K(23013936)</h3>
+    <table  align="center" bgcolor="cyan"border="6"cellspacing="3" cellpadding="7" width="540">
+        <tr  bgcolor="yellow">
+            <th >Day/Time</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+         </tr>  
+         <tr  bgcolor="cyan">
+            <th  bgcolor="yellow">8-10</th>
+            <td colspan="3"  align="center" >FREE SLOT</td>
+            <td>PHY</td>
+            <td>CHE</td>
+         </tr> 
+         <tr  bgcolor="cyan">
+            <th  bgcolor="yellow">10-12</th>
+            <td>GER</td>
+            <td>FREE SLOT</td>
+            <td>FWAD</td>
+            <td>FWAD</td>
+            <td>PHY</td>
+         </tr> 
+         <tr  bgcolor="cyan">
+            <th  bgcolor="yellow">12-1</th>
+            <td colspan="5" align="center">L U N C H</td>
+         </tr> 
+         <tr  bgcolor="cyan">
+            <th  bgcolor="yellow">1-3</th>
+            <td colspan="2" align="center">FREE SLOT</td>
+            <td>MAT</td>
+            <td>MAT</td>
+            <td>SS</td>
+         </tr> 
 
-        </table>
-    </body>
+    </table>
+    <br>
+    <table align="center" cellspacing="2" cellpadding="4" border="6">
+        <tr>
+        <th>S. No.</th>
+        <th>Subject Code</th>
+        <th>Subject Name</th>
+        </tr>
+        <tr>
+            <th>1</th>
+            <th>19AI414</th>
+             <td colspan="3">Fundamental Of Web Application Developement(FWAD)</td>
+        </tr>
+        <tr>
+            <th>2</th>
+            <th>19AI414</th>
+             <td >German Basic(GER)</td>
+        </tr>
+        <tr>
+            <th>3</th>
+            <th>19AI414</th>
+             <td >Physics For Information Technology (PHY)</td>
+            
+        </tr>
+        <tr>
+            <th >4</th>
+            <th>19AI414</th>
+             <td >Principle Of Chemistry In Engineering(CHE)</td>
+        </tr>
+        <tr>
+            <th>5</th>
+            <th>19AI414</th>
+             <td >Calculas And Matrix Algebra(MAT)</td>
+        </tr>
+        <tr>
+            <th>6</th>
+            <th>19AI414</th>
+             <td >Soft Skill(SS)</td>
+        </tr>
+   
+    </table> </center>
+    
+</body>
 </html>
-```
-
 
 ## OUTPUT
-![image](https://github.com/Karthi051/slot/assets/148327224/fc589e22-edb6-48ec-8cd3-2ecc2990223c)
+![time table](https://github.com/Karthi051/slot/assets/148327224/4ece6244-cccc-4677-ad87-f2873d4321d4)
+
 
 
 
